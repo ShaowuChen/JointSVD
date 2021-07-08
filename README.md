@@ -23,7 +23,7 @@ python3.6.12 ; Tensorflow1.15; MATLAB R2021a
 --**train_resnet_decom.py**: Use this code to fine-tune or train the decomposed networks from scratch.
 
 --**inference_evaluating_time.py**: Test the time for inference/Realistic Acceleartion.
-
+______________________________________________________________________________________________________
 --util
 
 ----**get_parameter.py**: obtain the factorized weights using decomposition methods
@@ -36,7 +36,7 @@ python3.6.12 ; Tensorflow1.15; MATLAB R2021a
 
 ----**dataset.py&image_processing.py&imagenet_data.py**：load ImageNet (TF records format)
 
-
+______________________________________________________________________________________________________
 
 --draw_pictures
 
