@@ -4,7 +4,7 @@ This repository contains codes for the paper :
 
 **Joint Matrix Decomposition for Deep Convolutional Neural Networks compression**
 
-Feel free to ask me question, and please cite our work if it help.
+Feel free to ask me questions, and please cite our work if it help.
 
 (Currently summited to the *Neurocomputing*, and we are considering  to upload it to arxiv later )
 
