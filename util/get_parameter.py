@@ -18,8 +18,8 @@ FLAGS=flags.FLAGS
 cifar10_Path = {
     'resnet18': '/home/test01/sambashare/sdh/CoupledSVD/ckpt/orig/cifar10/resnet18/resnet18_top1_0.9479999989271164-299',
     'resnet34': '/home/test01/sambashare/sdd/Coupled_Pruning/cifar10/orig_ckpt/resnet34_std0.01_l2/resnet34_top1_0.9510999977588653-299',
-    'resnet50': None,
-    'resnet101': '/home/test01/sambashare/sdh/CoupledSVD/ckpt/orig/cifar10/resnet101/resnet101_top1_0.9496000051498413-299',
+    'resnet50': '/home/test01/sambashare/sdd/Coupled_Pruning/cifar10/orig_ckpt/resnet50_std0.01_l2/resnet50_top1_0.9502000004053116-299',
+    'resnet101': None,
     'resnet152': None
 }
 
