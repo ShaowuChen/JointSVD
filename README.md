@@ -53,11 +53,11 @@ python train_resnet.py --model=resnet34 --dataset=cifar10 --from_scratch=True  -
 #### 2、set a rank rate, choose a method to compress network follow the 'pre-train->decompose->fine-tune' criteria:
 
 ```c
-python train_resnet_decom.py  --method=lJSVD --model=resnet34 --dataset=cifar100  --repeat_exp_times=3  --batch_size=128 --bool_regularizer=True --exp_path=cifar10_300epoch --from_scratch=False--epoch=300 --num_lr=1e-1 --change_lr="[140,200,250]" --max_to_keep=10 --rank_rate_SVD=0.04
+python train_resnet_decom.py  --method=lJSVD --model=resnet34 --dataset=cifar100  --repeat_exp_times=3  --batch_size=128 --bool_regularizer=True --exp_path=cifar10_300epoch --from_scratch=False --epoch=300 --num_lr=1e-1 --change_lr="[140,200,250]" --max_to_keep=10 --rank_rate_SVD=0.04
 ```
 #### or train it from scratch:
 ```c
-python train_resnet_decom.py  --method=lJSVD --model=resnet34 --dataset=cifar100  --repeat_exp_times=3  --batch_size=128 --bool_regularizer=True --exp_path=cifar10/from_scratch   --from_scratch=True--epoch=300 --num_lr=1e-1 --change_lr="[140,200,250]" --max_to_keep=10 --rank_rate_SVD=0.04
+python train_resnet_decom.py  --method=lJSVD --model=resnet34 --dataset=cifar100  --repeat_exp_times=3  --batch_size=128 --bool_regularizer=True --exp_path=cifar10/from_scratch   --from_scratch=True --epoch=300 --num_lr=1e-1 --change_lr="[140,200,250]" --max_to_keep=10 --rank_rate_SVD=0.04
 ```
 ***
 # 4.Resources
