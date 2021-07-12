@@ -5,7 +5,7 @@ This repository contains codes for the paper:
 [**Joint Matrix Decomposition for Deep Convolutional Neural Networks compression**](https://arxiv.org/abs/2107.04386)
 
 Feel free to ask me questions, and please cite our work if it help:
-'''
+```
 @misc{chen2021joint,
       title={Joint Matrix Decomposition for Deep Convolutional Neural Networks Compression}, 
       author={Shaowu Chen and Jiahao Zhou and Weize Sun and Lei Huang},
@@ -14,7 +14,7 @@ Feel free to ask me questions, and please cite our work if it help:
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
-'''
+```
 
 
 
