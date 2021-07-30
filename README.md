@@ -17,12 +17,50 @@ Feel free to ask me questions, and please cite our work if it help:
 ```
 
 
-
 ***
 # 1.Environment:
 python3.6.12 ; Tensorflow1.15; MATLAB R2021a
 ***
-# 2.File description:
+# 2.File
+## 2.1 Structure
+```
+├── resnet.py
+  ├── train_resnet.py
+  ├── resnet_decom.py
+  ├── train_resnet_decom.py
+  ├── inference_evaluating_time.py
+  ├── util
+  │   ├── get_parameter.py
+  │   ├── pytorch_pth2tensorflow_npy.py
+  │   ├── cifar10_input.py
+  │   ├── cifar100_input.py
+  │   ├── dataset.py
+  │   ├── image_processing.py
+  |   └── imagenet_data.py
+  ├── draw_pictures
+  │   ├── draw_Bi_JSVD_curves.m
+  |   └── draw_time_figure.py
+```
+
+## 2.2 Description:
+```
+  ├── resnet.py: Define the original networks for CIFAR-10/CIFAR-100/ImageNet
+  ├── train_resnet.py: Use this code to train the original networks from scratch or fine-tune the pre-trained networks transferred from Pytorch for ImageNet
+  ├── resnet_decom.py: Define the decomposed networks for CIFAR-10/CIFAR-100/ImageNet
+  ├── train_resnet_decom.py: Use this code to fine-tune or train the decomposed networks from scratch.
+  ├── inference_evaluating_time.py: Test the time for inference/Realistic Acceleartion.
+  ├── util
+  │   ├── get_parameter.py: Obtain the factorized weights using decomposition methods
+  │   ├── pytorch_pth2tensorflow_npy.py: Create a dictionary contains pre-trained Pytorch weights for ResNet34 on ImageNet to transfer the model to TensorFlow
+  │   ├── cifar10_input.py: Load CIFAR-10
+  │   ├── cifar100_input.py: Load CIFAR-100
+  │   ├── dataset.py：Load ImageNet (TF records format)
+  │   ├── image_processing.py：Load ImageNet (TF records format)
+  |   └── imagenet_data.py：Load ImageNet (TF records format)
+  ├── draw_pictures
+  │   ├── draw_Bi_JSVD_curves.m: (Matlab) Draw the Figure 3 and 4
+  |   └── draw_time_figure.py: Draw the Figure 5 (a) to (d)
+```
 
 --**resnet.py**: Define the original networks for CIFAR-10/CIFAR-100/ImageNet
 
