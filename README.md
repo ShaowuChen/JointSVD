@@ -21,7 +21,7 @@ Feel free to ask me questions, and please cite our work if it help:
 # 1.Environment:
 python3.6.12 ; Tensorflow1.15; MATLAB R2021a
 ***
-# 2.File
+# 2.Files
 ## 2.1 Structure
 ```
 --
@@ -76,7 +76,7 @@ python3.6.12 ; Tensorflow1.15; MATLAB R2021a
 ```c
 python train_resnet.py --model=resnet34 --dataset=cifar10 --from_scratch=True  --bool_regularizer=True --gpu=0 --batch_size=128 --epoch=300 --num_lr=1e-1 change_lr=[140,200,250]  --lr_decay=10
 ```
-#### 2、set a rank rate, choose a method to compress network follow the 'pre-train->decompose->fine-tune' criteria:
+#### 2、set a rank rate, choose a method to compress network follow the 'pre-train->decompose->fine-tune' pipeline:
 
 ```c
 python train_resnet_decom.py  --method=lJSVD --model=resnet34 --dataset=cifar100  --repeat_exp_times=3  --batch_size=128 --bool_regularizer=True --exp_path=cifar10_300epoch --from_scratch=False --epoch=300 --num_lr=1e-1 --change_lr="[140,200,250]" --max_to_keep=10 --rank_rate_SVD=0.04
