@@ -1,3 +1,5 @@
+# Joint Matrix Decomposition for Deep Convolutional Neural Networks compression
+
 Welcome!
 
 This repository contains codes for the paper:
@@ -8,13 +10,13 @@ This repository contains codes for the paper:
 
 Feel free to ask me questions, and please cite our work if it help:
 ```
-@misc{chen2021joint,
-      title={Joint Matrix Decomposition for Deep Convolutional Neural Networks Compression}, 
-      author={Shaowu Chen and Jiahao Zhou and Weize Sun and Lei Huang},
-      year={2021},
-      eprint={2107.04386},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{CHEN202311,
+title = {Joint matrix decomposition for deep convolutional neural networks compression},
+author = {Shaowu Chen and Jiahao Zhou and Weize Sun and Lei Huang},
+journal = {Neurocomputing},
+volume = {516},
+pages = {11-26},
+year = {2023}
 }
 ```
 
